@@ -1,13 +1,15 @@
-import './App.css'
-import { Button } from './components/ui/button'
+// src/App.jsx
+import React from 'react';
+import './App.css';
+import AppRoutes from './routes/Routes';
 
 function App() {
   return (
     <div>
       <h1 className='text-3xl text-center'>Streak Counter</h1>
-      <Button>Click me</Button>
+      <AppRoutes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
