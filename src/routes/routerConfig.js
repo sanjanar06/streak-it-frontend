@@ -1,3 +1,4 @@
+// routes.js
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import NewStreak from '../pages/Streaks/NewStreak';
@@ -5,8 +6,8 @@ import ActiveStreaks from '../pages/Streaks/ActiveStreaks';
 import StreakDetails from '../pages/Streaks/StreakDetails';
 import PastStreaks from '../pages/Streaks/PastStreaks';
 import Notifications from '../pages/Streaks/Notifications';
-import Logout from '../pages/Logout'; 
-import About from '@/pages/Streaks/About';
+import Logout from '../pages/Logout';
+import About from '../pages/Streaks/About';
 
 const ROUTES = [
   {
@@ -44,7 +45,7 @@ const ROUTES = [
   },
   {
     path: '/logout',
-    component: Logout, 
+    component: Logout,
   },
 ];
 

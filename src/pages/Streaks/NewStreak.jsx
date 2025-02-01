@@ -1,8 +1,11 @@
 import React from 'react'
+import StreaksLayout  from '@/layout/streaksLayout'
 
 const NewStreak = () => {
   return (
-    <div>NewStreak</div>
+    <StreaksLayout>
+      <div>NewStreak</div>
+    </StreaksLayout>
   )
 }
 

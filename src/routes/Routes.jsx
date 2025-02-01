@@ -1,23 +1,20 @@
-// src/routes/Routes.jsx
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ROUTES from './routerConfig';
+import ROUTES from '@/routes/routerConfig'
 
-const AppRoutes = () => {
+function App() {
   return (
     <Router>
       <Routes>
-        {ROUTES.map((route, index) => (
+        {ROUTES.map((route) => (
           <Route
             key={route.path}
             path={route.path}
-            exact={route.exact}
             element={<route.component />}
           />
         ))}
       </Routes>
     </Router>
   );
-};
+}
 
-export default AppRoutes;
+export default App;

@@ -1,8 +1,12 @@
+import StreaksLayout  from '@/layout/streaksLayout'
 import React from 'react'
 
-const About = () => {
+function About (){
+  console.log("About rendered");
   return (
-    <div>About</div>
+    <StreaksLayout>
+      <div>About</div>
+    </StreaksLayout>
   )
 }
 

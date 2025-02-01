@@ -6,7 +6,6 @@ import AppRoutes from './routes/Routes';
 function App() {
   return (
     <div>
-      <h1 className='text-3xl text-center'>Streak Counter</h1>
       <AppRoutes />
     </div>
   );
