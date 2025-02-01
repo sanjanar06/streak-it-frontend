@@ -1,9 +1,11 @@
 import './App.css'
+import { Button } from './components/ui/button'
 
 function App() {
   return (
     <div>
-      <h1>Streak Counter</h1>
+      <h1 className='text-3xl text-center'>Streak Counter</h1>
+      <Button>Click me</Button>
     </div>
   )
 }
